@@ -29,10 +29,17 @@ namespace Restaurant_Management
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Manager_Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1260, 732);
+            this.Name = "Manager_Form";
             this.Text = "Manager_Form";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

@@ -54,12 +54,15 @@ namespace Restaurant_Management
                     passwordTbox.Text = "";
                     return false;
                 }
-                reader.Close();
 
                 // Lưu lại username để chuyển cho form tiếp theo
                 user_id = reader["username"].ToString();
-            } catch
+
+                reader.Close();
+            }
+            catch (MySql.Data.MySqlClient.MySqlException ex)
             {
+                MessageBox.Show(ex.Message);
                 return false;
             }
             return true;
@@ -82,6 +85,9 @@ namespace Restaurant_Management
                     passwordTbox.Text = "";
                     return false;
                 }
+
+                // Lưu lại username để chuyển cho form tiếp theo
+                user_id = reader["username"].ToString();
                 reader.Close();
 
 
@@ -127,10 +133,8 @@ namespace Restaurant_Management
                 }
                 reader1.Close();
 
-                // Lưu lại username để chuyển cho form tiếp theo
-                user_id = reader["username"].ToString();
             }
-            catch(MySql.Data.MySqlClient.MySqlException ex)
+            catch (MySql.Data.MySqlClient.MySqlException ex)
             {
                 MessageBox.Show(ex.Message);
                 return false;
