@@ -91,6 +91,7 @@ namespace Restaurant_Management
             this.loginBtn.TabIndex = 5;
             this.loginBtn.Text = "Đăng nhập";
             this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // managerOpt
             // 

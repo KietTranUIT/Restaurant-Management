@@ -36,3 +36,5 @@ C:\Users\FShop\Documents\IT008_project\Restaurant_Management\Restaurant_Manageme
 C:\Users\FShop\Documents\IT008_project\Restaurant_Management\Restaurant_Management\obj\Debug\net5.0-windows\ref\Restaurant_Management.dll
 C:\Users\FShop\Documents\IT008_project\Restaurant_Management\Restaurant_Management\obj\Debug\net5.0-windows\Restaurant_Management.pdb
 C:\Users\FShop\Documents\IT008_project\Restaurant_Management\Restaurant_Management\obj\Debug\net5.0-windows\Restaurant_Management.genruntimeconfig.cache
+C:\Users\FShop\Documents\IT008_project\Restaurant_Management\Restaurant_Management\obj\Debug\net5.0-windows\Restaurant_Management.Manager_Form.resources
+C:\Users\FShop\Documents\IT008_project\Restaurant_Management\Restaurant_Management\obj\Debug\net5.0-windows\Restaurant_Management.Staff_Form.resources
